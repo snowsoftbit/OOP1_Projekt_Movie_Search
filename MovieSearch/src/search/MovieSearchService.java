@@ -69,7 +69,7 @@ public class MovieSearchService {
 
             if (matchesTitle && matchesDirector) {
                 result.add(movie);
-                // Kombinationssuche erfolgt nur wenn Titel und Director passen
+                // Kombinationssuche erfolgt nur wenn Titel und Director passen bzw. true sind
                 // erlaubt auch Suche nur nach Director oder Titel wenn eines davon leer ist.
             }
         }
