@@ -11,23 +11,11 @@ die Suche zusätzlich geladen wird.
 
 ## Root Folder
 
-/Users/sofiagraf/OOP1_Projekt-
-├── MovieSearch
-│   ├── data
-│   │   ├── movie_directors_export_new.csv
-│   │   └── user_movies.csv
-│   └── src
-│       ├── model
-│       │   └── Movie.java
-│       ├── repository
-│       │   └── MovieRepository.java
-│       ├── search
-│       │   └── MovieSearchService.java
-│       ├── storage
-│       │   └── CsvUserMovieStorage.java
-│       └── ui
-│           └── MovieSearchApp.java
-└── README.md
+- data /
+- src /
+- .gitignore
+- README.md
+
 
 ## Team Mitglieder und Rollen:
 
