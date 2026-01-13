@@ -11,8 +11,7 @@ die Suche zusätzlich geladen wird.
 
 ## Root Folder
 
-- data /
-- src /
+- MovieSearch/
 - .gitignore
 - README.md
 
