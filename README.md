@@ -5,8 +5,12 @@ Dies ist der GitHub Repo für unser Movie Search OOP1 Projekt. Ziel ist es ein K
 
 -Man kann Titel oder Regisseur einschränken und jeweils nach einen Teil des Bezeichners
 suchen.
--Es gibt ein Menü zur Auswahl von a) Neue Suche, b) Neue Filme eingeben, und c) Programm
-beenden. Die eingegebenen Filme werden in einer separaten Textdatei gespeichert, die für
+-Es gibt ein Menü zur Auswahl von 
+a) Neue Suche
+b) Neue Filme eingeben
+c) Programm beenden. 
+
+Die eingegebenen Filme werden in einer separaten Textdatei gespeichert, die für
 die Suche zusätzlich geladen wird.
 
 ## Root Folder
