@@ -4,8 +4,8 @@
 Dies ist der GitHub Repo für unser Movie Search OOP1 Projekt. Ziel ist es ein Konsolenprogramm zur Suche in der IMDB-Datenbank zu entwickeln mit folgenden Funktionen:
 
 -Man kann Titel oder Regisseur einschränken und jeweils nach einen Teil des Bezeichners
-suchen.
--Es gibt ein Menü zur Auswahl von 
+suchen. Es gibt ein Menü zur Auswahl von: 
+
 a) Neue Suche
 b) Neue Filme eingeben
 c) Programm beenden. 
