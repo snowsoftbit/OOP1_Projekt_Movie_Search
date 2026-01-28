@@ -1,12 +1,11 @@
 package ui;
 
+import java.util.List;
+import java.util.Scanner;
 import model.Movie;
 import repository.MovieRepository;
 import search.MovieSearchService;
 import storage.CsvUserMovieStorage;
-
-import java.util.List;
-import java.util.Scanner;
 
 public class MovieSearchApp {
 
@@ -14,8 +13,7 @@ public class MovieSearchApp {
 
     private final MovieRepository repo = new MovieRepository();
     private final MovieSearchService searchService = new MovieSearchService();
-    private final CsvUserMovieStorage storage =
-            new CsvUserMovieStorage("data/user_movies.csv");
+    private final CsvUserMovieStorage storage = new CsvUserMovieStorage("data/user_movies.csv");
 
     public static void main(String[] args) {
         new MovieSearchApp().run();
@@ -24,8 +22,8 @@ public class MovieSearchApp {
     public void run() {
         // Filme laden
         try {
-            repo.loadImdbCsv("data/movie_directors_export_new.csv");
-            repo.loadUserCsv("data/user_movies.csv");
+            repo.loadImdbCsv("MovieSearch/data/movie_directors_export_new.csv");
+            repo.loadUserCsv("MovieSearch/data/user_movies.csv");
         } catch (Exception e) {
             System.out.println("Fehler beim Laden der Dateien.");
         }
@@ -63,8 +61,7 @@ public class MovieSearchApp {
         System.out.print("Regisseur-Teil (leer = egal): ");
         String directorPart = sc.nextLine();
 
-        List<Movie> results =
-                searchService.search(repo.getAllMovies(), titlePart, directorPart);
+        List<Movie> results = searchService.search(repo.getAllMovies(), titlePart, directorPart);
 
         System.out.println("Treffer: " + results.size());
         for (Movie m : results) {
