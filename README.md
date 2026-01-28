@@ -1,4 +1,4 @@
-# OOP1_Projekt-
+# OOP1_Projekt_Movie_Search
 
 ## General 
 Dies ist der GitHub Repo für unser Movie Search OOP1 Projekt. Ziel ist es ein Konsolenprogramm zur Suche in der IMDB-Datenbank zu entwickeln mit folgenden Funktionen:
