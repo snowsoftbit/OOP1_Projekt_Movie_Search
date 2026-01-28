@@ -14,7 +14,7 @@ Die eingegebenen Filme werden in einer separaten Textdatei gespeichert, die für
 die Suche zusätzlich geladen wird.
 
 ## Root Folder
-
+- data /
 - MovieSearch/
 - .gitignore
 - README.md

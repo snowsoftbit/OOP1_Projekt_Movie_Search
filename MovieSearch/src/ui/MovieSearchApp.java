@@ -22,8 +22,8 @@ public class MovieSearchApp {
     public void run() {
         // Filme laden
         try {
-            repo.loadImdbCsv("MovieSearch/data/movie_directors_export_new.csv");
-            repo.loadUserCsv("MovieSearch/data/user_movies.csv");
+            repo.loadImdbCsv("data/movie_directors_export_new.csv");
+            repo.loadUserCsv("data/user_movies.csv");
         } catch (Exception e) {
             System.out.println("Fehler beim Laden der Dateien.");
         }
