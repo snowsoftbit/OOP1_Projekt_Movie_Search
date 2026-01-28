@@ -14,9 +14,10 @@ Die eingegebenen Filme werden in einer separaten Textdatei gespeichert, die für
 die Suche zusätzlich geladen wird.
 
 ## Root Folder
-- data /
+- data/
 - MovieSearch/
 - .gitignore
+- OOP1_Projekt_Movie_Search.jar
 - README.md
 
 
@@ -27,3 +28,15 @@ die Suche zusätzlich geladen wird.
 **Zuständig für MovieSearchService**: Sofia Charlotte Graf 
 
 **Zuständig für MovieSearchApp und CsvUserMovieStorage**: Cara-Maria Kietzig
+
+## Bedienung: 
+
+1. Java Installieren 
+2. ZIP von hier herunterladen und Entpacken 
+3. Terminal öffnen 
+4. In den Projekt Ordner wechseln der gerade entpackt wurde
+
+### Dies ist was man im Terminal eingeben muss
+```bash
+cd /your/path/to/OOP1_Projekt_Movie_Search
+java -jar OOP1_Projekt_Movie_Search.jar
