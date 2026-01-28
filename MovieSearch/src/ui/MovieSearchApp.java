@@ -70,6 +70,10 @@ public class MovieSearchApp {
         for (Movie m : results) {
             System.out.println(m);
         }
+        // Einbau einer Verzögerung
+        System.out.println();
+        System.out.println("Weiter mit Enter...");
+        sc.nextLine();
     }
 
     private void handleAddMovie() {
