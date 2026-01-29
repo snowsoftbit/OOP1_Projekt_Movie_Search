@@ -15,7 +15,9 @@ die Suche zusätzlich geladen wird.
 
 ## Root Folder
 
+- data
 - MovieSearch/src
+- resources
 - .gitignore
 - OOP1_Projekt_Movie_Search.jar
 - README.md
@@ -30,7 +32,7 @@ die Suche zusätzlich geladen wird.
 
 ## Bedienung und Anleitung für die Nutzung in einem Terminal
 
-![Demo of the Movie Search Program](MovieSearch/resources/media/gifs/Movie_Search_Demonstration.GIF)
+![Demo of the Movie Search Program](resources/media/gifs/Movie_Search_Demonstration.GIF)
 
 1. Java Installieren. Wir haben die [hier](https://adoptium.net/temurin/releases) erhältliche openjdk version "25.0.2" verwendet.
 2. Die ZIP datei vom Repo herunterladen und Entpacken
