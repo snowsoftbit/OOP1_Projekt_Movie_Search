@@ -8,7 +8,7 @@ suchen. Es gibt ein Menü zur Auswahl von:
 
 - a) Neue Suche
 - b) Neue Filme eingeben
-- c) Programm beenden. 
+- c) Programm beenden
 
 Die eingegebenen Filme werden in einer separaten Textdatei gespeichert, die für
 die Suche zusätzlich geladen wird.
@@ -30,8 +30,10 @@ die Suche zusätzlich geladen wird.
 
 ## Bedienung und Anleitung für die Nutzung in einem Terminal
 
-1. Java Installieren. Wir haben die openjdk version "25.0.2" verwendet.
-2. ZIP von hier herunterladen und Entpacken
+![Demo of the Movie Search Program](MovieSearch/data/Movie_Search_Demonstration.GIF)
+
+1. Java Installieren. Wir haben die [hier](https://adoptium.net/temurin/releases) erhältliche openjdk version "25.0.2" verwendet.
+2. Die ZIP datei vom Repo herunterladen und Entpacken
 3. Terminal öffnen
 4. In den Projekt Ordner wechseln der gerade entpackt wurde
 
