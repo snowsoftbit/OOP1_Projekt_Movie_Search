@@ -47,7 +47,11 @@ public class MovieSearchApp {
     }
 
     private void printMenu() {
+        System.out.println("----------------------------------------");
         System.out.println();
+        System.out.println("Movie Search Main Menu");
+        System.out.println();
+        System.out.println("Optionen:");
         System.out.println("a) Neue Suche");
         System.out.println("b) Neuen Film eingeben");
         System.out.println("c) Beenden");
@@ -62,13 +66,13 @@ public class MovieSearchApp {
         String directorPart = sc.nextLine();
 
         List<Movie> results = searchService.search(repo.getAllMovies(), titlePart, directorPart);
-
+        System.out.println("----------------------------------------");
         System.out.println("Treffer: " + results.size());
         for (Movie m : results) {
             System.out.println(m);
         }
         // Einbau einer Verzögerung
-        System.out.println();
+        System.out.println("----------------------------------------");
         System.out.println("Weiter mit Enter...");
         sc.nextLine();
     }
@@ -94,8 +98,10 @@ public class MovieSearchApp {
         // dauerhaft speichern
         try {
             storage.saveMovie(movie);
+            System.out.println("----------------------------------------");
             System.out.println("Film gespeichert.");
         } catch (Exception e) {
+            System.out.println("----------------------------------------");
             System.out.println("Speichern fehlgeschlagen.");
         }
     }
