@@ -16,7 +16,6 @@ die Suche zusätzlich geladen wird.
 ## Root Folder
 
 - MovieSearch/src
-- data/
 - .gitignore
 - OOP1_Projekt_Movie_Search.jar
 - README.md
