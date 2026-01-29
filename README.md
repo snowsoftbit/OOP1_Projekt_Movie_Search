@@ -22,15 +22,15 @@ die Suche zusätzlich geladen wird.
 
 ## Team Mitglieder und Rollen
 
-- Zuständig für MovieRepository und Movie: Sofia Linda Weber
+- Zuständig für MovieRepository und Movie: Sofia W
 
-- Zuständig für MovieSearchService: Sofia Charlotte Graf
+- Zuständig für MovieSearchService: Sofia G
 
-- Zuständig für MovieSearchApp und CsvUserMovieStorage: Cara-Maria Kietzig
+- Zuständig für MovieSearchApp und CsvUserMovieStorage: Cara
 
 ## Bedienung und Anleitung für die Nutzung in einem Terminal
 
-![Demo of the Movie Search Program](MovieSearch/data/Movie_Search_Demonstration.GIF)
+![Demo of the Movie Search Program](MovieSearch/resources/media/gifs/Movie_Search_Demonstration.GIF)
 
 1. Java Installieren. Wir haben die [hier](https://adoptium.net/temurin/releases) erhältliche openjdk version "25.0.2" verwendet.
 2. Die ZIP datei vom Repo herunterladen und Entpacken
