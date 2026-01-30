@@ -1,7 +1,7 @@
 # OOP1 Projekt Movie Search
 
 ## General 
-Dies ist der GitHub Repo für unser Movie Search OOP1 Projekt.Das Repository ist [hier](https://github.com/sofia1738/OOP1_Projekt_Movie_Search.git) abrufbar. Ziel ist es ein Konsolenprogramm zur Suche in der IMDB-Datenbank zu entwickeln mit folgenden Funktionen:
+Dies ist der GitHub Repo für unser Movie Search OOP1 Projekt.Das Repository ist [hier](https://github.com/sofia1738/OOP1_Projekt_Movie_Search.git) abrufbar. Ziel war es ein Konsolenprogramm zur Suche in der IMDB-Datenbank zu entwickeln mit folgenden Funktionen:
 
 -Man kann Titel oder Regisseur einschränken und jeweils nach einen Teil des Bezeichners
 suchen. Es gibt ein Menü zur Auswahl von: 
@@ -31,10 +31,10 @@ Die eingegebenen Filme werden in einer separaten Textdatei gespeichert, die für
 
 ## Bedienung und Anleitung für die Nutzung in einem Terminal
 
-![Demo of the Movie Search Program](resources/media/gifs/Movie_Search_Demonstration.gif)
+![Demo Gif of the Movie Search Program](resources/media/gifs/Movie_Search_Demonstration.gif)
 
 1. Java Installieren. Wir haben die [hier](https://adoptium.net/temurin/releases) erhältliche openjdk version "25.0.2" verwendet.
-2. Die ZIP datei vom Repo herunterladen und Entpacken
+2. Die ZIP datei vom Repository herunterladen und Entpacken
 3. Terminal öffnen
 4. In den Projekt Ordner wechseln der gerade entpackt wurde
 
