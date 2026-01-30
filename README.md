@@ -1,7 +1,7 @@
 # OOP1 Projekt Movie Search
 
 ## General 
-Dies ist der GitHub Repo für unser Movie Search OOP1 Projekt.Das Repository ist [hier](https://github.com/sofia1738/OOP1_Projekt_Movie_Search.git) abrufbar. Ziel war es ein Konsolenprogramm zur Suche in der IMDB-Datenbank zu entwickeln mit folgenden Funktionen:
+Dies ist der GitHub Repo für unser Movie Search OOP1 Projekt. Das Repository ist [hier](https://github.com/sofia1738/OOP1_Projekt_Movie_Search.git) abrufbar. Ziel war es ein Konsolenprogramm zur Suche in der IMDB-Datenbank zu entwickeln mit folgenden Funktionen:
 
 -Man kann Titel oder Regisseur einschränken und jeweils nach einen Teil des Bezeichners
 suchen. Es gibt ein Menü zur Auswahl von: 
@@ -14,9 +14,9 @@ Die eingegebenen Filme werden in einer separaten Textdatei gespeichert, die für
 
 ## Root Folder
 
-- data
 - MovieSearch/src
-- resources
+- data
+- resources/media
 - .gitignore
 - OOP1_Projekt_Movie_Search.jar
 - README.md
