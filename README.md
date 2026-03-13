@@ -25,7 +25,7 @@ Die eingegebenen Filme werden in einer separaten Textdatei gespeichert, die für
 
 - Zuständig für MovieRepository und Movie: Sofia W
 
-- Zuständig für MovieSearchService: Sofia G
+- Zuständig für MovieSearchService: sofia1738
 
 - Zuständig für MovieSearchApp und CsvUserMovieStorage: Cara
 
