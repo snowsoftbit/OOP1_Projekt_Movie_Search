@@ -23,9 +23,9 @@ Die eingegebenen Filme werden in einer separaten Textdatei gespeichert, die für
 
 ## Team Mitglieder und Rollen
 
-- Zuständig für MovieRepository und Movie: Sofia W
+- Zuständig für MovieRepository und Movie: [@S0fiaWeber](https://github.com/S0fiaWeber)
 
-- Zuständig für MovieSearchService: snowsoftbit
+- Zuständig für MovieSearchService: [@snowsoftbit](https://github.com/snowsoftbit)
 
 - Zuständig für MovieSearchApp und CsvUserMovieStorage: Cara
 
